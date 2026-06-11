@@ -2,7 +2,7 @@
   max-width: 700px;
   margin: 40px auto;
   padding: 0 16px;
-  color: #1f2937;
+  color: var(--text-h);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -30,24 +30,27 @@
 
 .field input {
   height: 42px;
-  border: 2px solid #111827;
+  border: 2px solid var(--border);
   border-radius: 10px;
   padding: 0 12px;
   font-size: 16px;
+  background: var(--bg);
+  color: var(--text-h);
 }
 
 .submit-btn {
   height: 42px;
   padding: 0 22px;
-  border: 2px solid #111827;
+  border: 2px solid var(--border);
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--bg);
   cursor: pointer;
   font-size: 16px;
+  color: var(--text-h);
 }
 
 .table-wrap {
-  border: 2px solid #111827;
+  border: 2px solid var(--border);
   border-radius: 14px;
   overflow: hidden;
 }
@@ -62,7 +65,7 @@
 .table-head {
   padding: 12px 16px;
   font-weight: 700;
-  border-bottom: 2px solid #111827;
+  border-bottom: 2px solid var(--border);
 }
 
 .rows {
@@ -73,7 +76,7 @@
 
 .row {
   padding: 12px 16px;
-  border-bottom: 1px solid #d1d5db;
+  border-bottom: 1px solid var(--border);
 }
 
 .row:last-child {
@@ -88,18 +91,19 @@
 .actions button {
   width: 30px;
   height: 30px;
-  border: 1px solid #111827;
+  border: 1px solid var(--border);
   border-radius: 50%;
-  background: #fff;
+  background: var(--bg);
   cursor: pointer;
   font-size: 16px;
   line-height: 1;
+  color: var(--text-h);
 }
 
 .empty {
   padding: 20px 16px;
   text-align: center;
-  color: #6b7280;
+  color: var(--text);
 }
 
 @media (max-width: 640px) {
